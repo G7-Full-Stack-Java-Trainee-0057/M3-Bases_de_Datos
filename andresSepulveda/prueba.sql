@@ -1,0 +1,1 @@
+-- Archivo de prueba para manejar el caso de uso.
