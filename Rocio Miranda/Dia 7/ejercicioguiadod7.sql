@@ -1,4 +1,4 @@
---psql -U postgres
+gi--
 
 --Creo una base de datos
 CREATE DATA BASE mewashi_car;
