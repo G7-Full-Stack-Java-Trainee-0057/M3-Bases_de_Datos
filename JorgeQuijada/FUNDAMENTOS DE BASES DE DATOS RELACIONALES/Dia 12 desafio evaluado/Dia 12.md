@@ -68,5 +68,3 @@ relaciones:
 - Un paciente puede realizar una o mas consultas.
 - Una consulta solo puede tener una licencia y a su vez una licencia puede generarse a traves de una consulta.
 
-
-
