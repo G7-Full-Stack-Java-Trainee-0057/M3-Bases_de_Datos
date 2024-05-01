@@ -332,3 +332,4 @@ prueba_m3=# SELECT * FROM Usuarios;
 -------------+--------+------+-------
 (0 rows)
 
+
