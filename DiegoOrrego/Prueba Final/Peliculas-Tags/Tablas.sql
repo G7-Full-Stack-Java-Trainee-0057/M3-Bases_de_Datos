@@ -17,5 +17,5 @@ CREATE TABLE Genero (
     id_pelicula VARCHAR(20),
     id_tag VARCHAR(20),
     FOREIGN KEY (id_pelicula) REFERENCES Peliculas(id),
-    FOREIGN KEY (id_tag) REFERENCES Tags(ID)
+    FOREIGN KEY (id_tag) REFERENCES Tags(id)
 );
