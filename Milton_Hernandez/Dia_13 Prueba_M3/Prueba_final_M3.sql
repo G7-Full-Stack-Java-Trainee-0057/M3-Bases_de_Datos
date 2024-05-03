@@ -269,6 +269,17 @@ prueba_m3=# SELECT * FROM Preguntas Where respuesta_correcta = 'si';
             3 | Segunda pregunta | si
 (3 rows)
 
+SELECT id_preguntas, COUNT(*) AS respuestas_correctas_totales
+FROM Preguntas WHERE respuesta_correcta = 'si' GROUP BY id_preguntas;
+
+prueba_m3=# SELECT id_preguntas, COUNT(*) AS respuestas_correctas_totales
+prueba_m3-# FROM Preguntas WHERE respuesta_correcta = 'si' GROUP BY id_preguntas;
+
+ id_preguntas | respuestas_correctas_totales
+--------------+------------------------------
+            2 |                            1
+            3 |                            1
+
 --7.	Por cada pregunta, en la tabla preguntas, cuenta cuántos usuarios tuvieron la respuesta correcta.
 
 SELECT * FROM Preguntas WHERE respuesta_correcta = 'si';
@@ -331,4 +342,5 @@ prueba_m3=# SELECT * FROM Usuarios;
  id_usuarios | nombre | edad | email
 -------------+--------+------+-------
 (0 rows)
+
 
